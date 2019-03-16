@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : ""contrast" #"dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Study Hard"
 title_separator          : "-"
 name                     : "Minju Kang"
-description              : "An amazing website."
+description              : "알고리즘 내용 정리 블로그"
 url                      : "https://kmju1997.github.io"
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : "kmju1997/kmju1997.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "강민주"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "공부한 내용 정리용 블로그입니닷"
+  location         : "의정부 / 군자 / Hanyang University"
+  email            : "kmju1997@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/kmju1997"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
