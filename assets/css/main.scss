@@ -3,8 +3,7 @@
 ---
 
 @charset "utf-8";
-
-@import "minimal-mistakes"; 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'contrast' }}"; // skin
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
@@ -19,12 +18,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a{
+    color: #000000;
     font-family: 'Raleway', 'Nanum Gothic', sans-serif;
+    text-decoration: none;
 }
 
 a:hover{
-    color: black;
+    color:#7fff00;
 }
+
 
 #main{
     font-family: 'Raleway', 'Nanum Gothic', sans-serif;
